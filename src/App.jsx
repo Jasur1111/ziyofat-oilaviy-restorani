@@ -25,6 +25,8 @@ function App() {
           <Route path='/drinks' element={<Drinks />} />
           <Route path='/more' element={<Yevropa />} />
           <Route path='/nat' element={<National />} />
+          <Route path='/salat' element={<Salads />} />
+          <Route path='/suv' element={<Drinks />} />
         </Routes>
       </BrowserRouter>
     </>
