@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='bg-[#173D30] text-white'>
       <div>
-        <img className='h-[800px]' src={ziyofat} alt="" />
+        <img  src={ziyofat} alt="" />
       </div>
       <div className='mt-30 bg-[#173D30]'>
         <div className="w-full  px-5 py-6 mt-4 bg-[#173D30]">
@@ -146,7 +146,7 @@ const Home = () => {
           <div className="group cursor-pointer">
             <div className="aspect-square overflow-hidden rounded-[20px] bg-gray-100">
               <img
-                src="https://www.centralasia-travel.com/uploads/gallery/1226/naryn-01.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BR2NgP3iae_X1y99j45wVVWvH_A7If73jLcUZNCxPgW7J__cVREEGKtK&s=10"
                 alt=""
                 className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 group-hover:-translate-y-1"
               />
