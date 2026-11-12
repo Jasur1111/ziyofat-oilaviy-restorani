@@ -4,23 +4,20 @@ import Footer from '../companents/Footer'
 const National = () => {
   return (
     <div className="w-full bg-[#173D30] text-white ">
-      <div className='text-white w-[1500px] ml-40 p-4'>
+      <div className='text-white w-full max-w-[1500px] mx-auto p-4 md:p-6'>
 
-
-        <p>
-          <h1 className='font-bold text-3xl flex justify-center'>Milliy taomlar haqida umumiy ma'lumot</h1>
-          <br />
-          Milliy taomlar — har bir xalqning tarixi, madaniyati, urf-odatlari va turmush tarzini aks ettiruvchi o‘ziga xos taomlardir. O‘zbek milliy oshxonasi dunyodagi eng mazali va boy oshxonalardan biri hisoblanadi. U o‘zining xilma-xil taomlari, betakror ta'mi, xushbo‘y hidi va tayyorlanish an'analari bilan mashhur. O‘zbek milliy taomlari asrlar davomida shakllanib, avloddan-avlodga o‘tib kelgan.
-          <br />
-          <br />
-          O‘zbek oshxonasida palov, manti, somsa, lag‘mon, norin, shashlik, sho‘rva, chuchvara va mastava kabi taomlar alohida o‘rin egallaydi. Ularning har biri o‘ziga xos tayyorlanish usuli va mazaga ega. Masalan, palov guruch, go‘sht, sabzi, piyoz va turli ziravorlardan tayyorlanadi. Manti xamir ichiga qiymalangan go‘sht va piyoz solib, bug‘da pishiriladigan taomdir. Somsa esa go‘sht, piyoz yoki boshqa masalliqlar solingan xamirdan tayyorlanib, tandirda yoki pechda pishiriladi. Lag‘mon esa cho‘zma xamir, go‘sht va sabzavotlardan tayyorlanadigan mazali taom hisoblanadi.          <br />
-          <br />
-          <br />
-          Milliy taomlarni tayyorlashda asosan go‘sht, guruch, un, sabzi, piyoz, kartoshka, pomidor, turli ko‘katlar va ziravorlardan foydalaniladi. Ushbu mahsulotlar taomlarga o‘ziga xos ta'm va xushbo‘y hid beradi. O‘zbek oshxonasida taomlarni tayyorlash bilan bir qatorda ularni dasturxonga chiroyli tortish ham muhim ahamiyatga ega.
-          <br />
-          <br />
-          Xulosa qilib aytganda, milliy taomlarimiz xalqimizning boy tarixi, madaniyati va an'analarini namoyon etadi. O‘zbek milliy oshxonasi nafaqat mamlakatimizda, balki dunyoning ko‘plab davlatlarida ham qadrlanadi. Milliy taomlarimizni asrab-avaylash, ularni kelajak avlodlarga yetkazish va dunyoga tanitish har birimiz uchun muhimdir.
-               </p> </div>
+  <p>
+    <h1 className='font-bold text-2xl md:text-3xl flex justify-center text-center'>Milliy taomlar haqida umumiy ma'lumot</h1>
+    <br />
+    Milliy taomlar — har bir xalqning tarixi, madaniyati, urf-odatlari va turmush tarzini aks ettiruvchi o‘ziga xos taomlardir. O‘zbek milliy oshxonasi dunyodagi eng mazali va boy oshxonalardan biri hisoblanadi. U o‘zining xilma-xil taomlari, betakror ta'mi, xushbo‘y hidi va tayyorlanish an'analari bilan mashhur. O‘zbek milliy taomlari asrlar davomida shakllanib, avloddan-avlodga o‘tib kelgan.
+    <br /><br />
+    O‘zbek oshxonasida palov, manti, somsa, lag‘mon, norin, shashlik, sho‘rva, chuchvara va mastava kabi taomlar alohida o‘rin egallaydi. Ularning har biri o‘ziga xos tayyorlanish usuli va mazaga ega. Masalan, palov guruch, go‘sht, sabzi, piyoz va turli ziravorlardan tayyorlanadi. Manti xamir ichiga qiymalangan go‘sht va piyoz solib, bug‘da pishiriladigan taomdir. Somsa esa go‘sht, piyoz yoki boshqa masalliqlar solingan xamirdan tayyorlanib, tandirda yoki pechda pishiriladi. Lag‘mon esa cho‘zma xamir, go‘sht va sabzavotlardan tayyorlanadigan mazali taom hisoblanadi.
+    <br /><br /><br />
+    Milliy taomlarni tayyorlashda asosan go‘sht, guruch, un, sabzi, piyoz, kartoshka, pomidor, turli ko‘katlar va ziravorlardan foydalaniladi. Ushbu mahsulotlar taomlarga o‘ziga xos ta'm va xushbo‘y hid beradi. O‘zbek oshxonasida taomlarni tayyorlash bilan bir qatorda ularni dasturxonga chiroyli tortish ham muhim ahamiyatga ega.
+    <br /><br />
+    Xulosa qilib aytganda, milliy taomlarimiz xalqimizning boy tarixi, madaniyati va an'analarini namoyon etadi. O‘zbek milliy oshxonasi nafaqat mamlakatimizda, balki dunyoning ko‘plab davlatlarida ham qadrlanadi. Milliy taomlarimizni asrab-avaylash, ularni kelajak avlodlarga yetkazish va dunyoga tanitish har birimiz uchun muhimdir.
+  </p>
+</div>
       <div className="w-full  px-5 py-6 bg-[#173D30] text-white">
         <div className="flex w-full items-center gap-3">
           <div className="h-px flex-1 bg-orange-300"></div>
@@ -52,7 +49,7 @@ const National = () => {
         <div className="group cursor-pointer">
           <div className="aspect-square overflow-hidden rounded-[20px] bg-[#ffefd6]">
             <img
-              src="https://fort.crimea.com/catering/uploads/fotos/e03a97e9-c34a-11e9-9c76-54a05051519a_1.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAgUhH4UdhBa54SsL4iKtbW5EvpxA1queMkJoPqmaoVQaHPXE2rYMg8DY&s=10"
               alt=""
               className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 group-hover:-translate-y-1"
             />
@@ -82,7 +79,7 @@ const National = () => {
         <div className="group cursor-pointer">
           <div className="aspect-square overflow-hidden rounded-[20px] bg-gray-100">
             <img
-              src="https://www.centralasia-travel.com/uploads/gallery/1226/naryn-01.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BR2NgP3iae_X1y99j45wVVWvH_A7If73jLcUZNCxPgW7J__cVREEGKtK&s=10"
               alt=""
               className="h-full w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-110 group-hover:-translate-y-1"
             />

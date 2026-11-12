@@ -5,24 +5,20 @@ const Salads = () => {
   return (
     <div>
        <div className="w-full bg-[#173D30]  text-white">
-      <div className='text-white w-[1500px] ml-40 p-4'>
-        
-        
-        <p>
-          <h1 className='font-bold text-3xl flex justify-center'> Salatlar haqida umumiy ma'lumot</h1>
-          <br />
-          Salat — turli xil sabzavotlar, mevalar, ko‘katlar, go‘sht, baliq, tuxum, pishloq va boshqa mahsulotlardan tayyorlanadigan mazali taomlardan biridir. Salatlar qadim zamonlardan beri insonlar tomonidan iste'mol qilib kelinadi. Dastlab qadimgi yunonlar va rimliklar ko‘katlar, sabzavotlar hamda zaytun moyidan foydalanib salatlar tayyorlashgan. Vaqt o‘tishi bilan salatlar dunyoning turli mamlakatlariga tarqalib, har bir xalq o‘z milliy taomlariga mos ravishda yangi turlarini yaratgan.
-          <br />
-          <br />
-          Bugungi kunda salatlarning juda ko‘p turlari mavjud. Ular orasida sabzavotli, mevali, go‘shtli, baliqli, pishloqli va aralash salatlar alohida o‘rin egallaydi. Sabzavotli salatlar pomidor, bodring, karam, sabzi va turli ko‘katlardan tayyorlanadi. Mevali salatlarda olma, banan, apelsin, kivi, uzum kabi mevalardan foydalaniladi. Go‘shtli salatlar esa tovuq yoki mol go‘shti, tuxum va boshqa mahsulotlar bilan tayyorlanadi.
-          <br />
-          <br />
-          Dunyoda mashhur bo‘lgan salatlardan Olivye, Sezar, Grek va boshqa salatlarni misol qilish mumkin. Olivye salati kartoshka, sabzi, tuxum, no‘xat, kolbasa va mayonezdan tayyorlanadi. Sezar salati tovuq go‘shti, salat barglari, pishloq, suxarik va maxsus sous bilan tayyorlanadi. Grek salatiga pomidor, bodring, zaytun, pishloq va zaytun moyi qo‘shiladi. O‘zbek milliy oshxonasida esa achchiq-chuchuk salati juda mashhur bo‘lib, u pomidor, piyoz va ko‘katlardan tayyorlanadi.
-          <br />
-          <br />
-          Xulosa qilib aytganda, salatlar kundalik ovqatlanishimizda, restoran menyularida va bayram dasturxonlarida muhim o‘rin egallaydi. Ularning turli xil ko‘rinishlari, mazasi va tayyorlanish usullari har bir insonning didiga mos keladi. Salatlar taomlanishni yanada rang-barang, mazali va foydali qiladi.
-        </p>
-      </div>
+      <div className='text-white w-full max-w-[1500px] mx-auto p-4 md:p-6'>
+
+  <p>
+    <h1 className='font-bold text-2xl md:text-3xl flex justify-center text-center'> Salatlar haqida umumiy ma'lumot</h1>
+    <br />
+    Salat — turli xil sabzavotlar, mevalar, ko‘katlar, go‘sht, baliq, tuxum, pishloq va boshqa mahsulotlardan tayyorlanadigan mazali taomlardan biridir. Salatlar qadim zamonlardan beri insonlar tomonidan iste'mol qilib kelinadi. Dastlab qadimgi yunonlar va rimliklar ko‘katlar, sabzavotlar hamda zaytun moyidan foydalanib salatlar tayyorlashgan. Vaqt o‘tishi bilan salatlar dunyoning turli mamlakatlariga tarqalib, har bir xalq o‘z milliy taomlariga mos ravishda yangi turlarini yaratgan.
+    <br /><br />
+    Bugungi kunda salatlarning juda ko‘p turlari mavjud. Ular orasida sabzavotli, mevali, go‘shtli, baliqli, pishloqli va aralash salatlar alohida o‘rin egallaydi. Sabzavotli salatlar pomidor, bodring, karam, sabzi va turli ko‘katlardan tayyorlanadi. Mevali salatlarda olma, banan, apelsin, kivi, uzum kabi mevalardan foydalaniladi. Go‘shtli salatlar esa tovuq yoki mol go‘shti, tuxum va boshqa mahsulotlar bilan tayyorlanadi.
+    <br /><br />
+    Dunyoda mashhur bo‘lgan salatlardan Olivye, Sezar, Grek va boshqa salatlarni misol qilish mumkin. Olivye salati kartoshka, sabzi, tuxum, no‘xat, kolbasa va mayonezdan tayyorlanadi. Sezar salati tovuq go‘shti, salat barglari, pishloq, suxarik va maxsus sous bilan tayyorlanadi. Grek salatiga pomidor, bodring, zaytun, pishloq va zaytun moyi qo‘shiladi. O‘zbek milliy oshxonasida esa achchiq-chuchuk salati juda mashhur bo‘lib, u pomidor, piyoz va ko‘katlardan tayyorlanadi.
+    <br /><br />
+    Xulosa qilib aytganda, salatlar kundalik ovqatlanishimizda, restoran menyularida va bayram dasturxonlarida muhim o‘rin egallaydi. Ularning turli xil ko‘rinishlari, mazasi va tayyorlanish usullari har bir insonning didiga mos keladi. Salatlar taomlanishni yanada rang-barang, mazali va foydali qiladi.
+  </p>
+</div>
       <div className="w-full  px-5 py-6 bg-[#173D30] mt-4">
         <div className="flex w-full items-center gap-3 bg-[#173D30]">
           <div className="h-px flex-1 bg-orange-300 "></div>

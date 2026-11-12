@@ -5,21 +5,20 @@ import Footer from '../companents/Footer'
 const Yevropa = () => {
   return (
     <div className="w-full bg-[#173D30]  text-white">
-      <div className='text-white w-[1500px] ml-40 p-4'>
+      <div className='text-white w-full max-w-[1500px] mx-auto p-4 md:p-6'>
 
-
-        <p>
-          <h1 className='font-bold text-3xl flex justify-center'> Yevropa taomlari haqida umumiy ma'lumot</h1>
-          <br />
-          Yevropa taomlari — Yevropa mamlakatlarining milliy madaniyati, urf-odatlari va tarixini aks ettiruvchi turli xil mazali taomlar majmuasidir. Yevropa oshxonasi dunyodagi eng mashhur oshxonalardan biri hisoblanadi. Uning taomlari o‘zining betakror ta'mi, chiroyli ko‘rinishi, tayyorlanish usullari va mahsulotlar xilma-xilligi bilan ajralib turadi. Yevropa oshxonasi asosan go‘sht, baliq, sabzavot, kartoshka, pishloq, un mahsulotlari va turli ziravorlardan foydalanishga asoslangan.          <br />
-          <br />
-          Yevropa mamlakatlarining har biri o‘ziga xos milliy taomlarga ega. Masalan, Italiya oshxonasi pitsa, pasta va lazanya kabi taomlari bilan mashhur. Fransiya oshxonasi kruassan, piyozli sho‘rva, turli pishloqlar va nafis desertlari bilan tanilgan. Germaniya oshxonasida kolbasa, kartoshkali taomlar va go‘shtli mahsulotlar keng tarqalgan. Ispaniya oshxonasida esa paelya, gazpacho va turli dengiz mahsulotlaridan tayyorlangan taomlar mashhur. Angliya oshxonasida fish and chips, turli piroglar va go‘shtli taomlar alohida o‘rin egallaydi.
-          <br />
-          <br />
-          Yevropa taomlarini tayyorlashda turli xil mahsulotlardan foydalaniladi. Go‘sht, baliq, sabzavot, guruch, makaron, kartoshka, tuxum, sut va pishloq eng ko‘p ishlatiladigan mahsulotlar hisoblanadi. Taomlarga o‘ziga xos ta'm berish uchun zaytun moyi, sariyog‘, sarimsoq, ko‘katlar va turli ziravorlar qo‘shiladi. Yevropa oshxonasida taomlarning nafaqat mazasi, balki tashqi ko‘rinishi va dasturxonga tortilishiga ham katta e'tibor beriladi.          <br />
-          <br />
-          Xulosa qilib aytganda, Yevropa taomlari o‘zining boy tarixi, turli xil retseptlari, mazali ta'mi va chiroyli bezatilishi bilan butun dunyoda mashhurdir. Ular zamonaviy restoranlar menyusida muhim o‘rin egallaydi va turli mamlakatlarning oshxona madaniyatini yaqindan tanish imkonini beradi.        </p>
-      </div>
+  <p>
+    <h1 className='font-bold text-2xl md:text-3xl flex justify-center text-center'> Yevropa taomlari haqida umumiy ma'lumot</h1>
+    <br />
+    Yevropa taomlari — Yevropa mamlakatlarining milliy madaniyati, urf-odatlari va tarixini aks ettiruvchi turli xil mazali taomlar majmuasidir. Yevropa oshxonasi dunyodagi eng mashhur oshxonalardan biri hisoblanadi. Uning taomlari o‘zining betakror ta'mi, chiroyli ko‘rinishi, tayyorlanish usullari va mahsulotlar xilma-xilligi bilan ajralib turadi. Yevropa oshxonasi asosan go‘sht, baliq, sabzavot, kartoshka, pishloq, un mahsulotlari va turli ziravorlardan foydalanishga asoslangan.
+    <br /><br />
+    Yevropa mamlakatlarining har biri o‘ziga xos milliy taomlarga ega. Masalan, Italiya oshxonasi pitsa, pasta va lazanya kabi taomlari bilan mashhur. Fransiya oshxonasi kruassan, piyozli sho‘rva, turli pishloqlar va nafis desertlari bilan tanilgan. Germaniya oshxonasida kolbasa, kartoshkali taomlar va go‘shtli mahsulotlar keng tarqalgan. Ispaniya oshxonasida esa paelya, gazpacho va turli dengiz mahsulotlaridan tayyorlangan taomlar mashhur. Angliya oshxonasida fish and chips, turli piroglar va go‘shtli taomlar alohida o‘rin egallaydi.
+    <br /><br />
+    Yevropa taomlarini tayyorlashda turli xil mahsulotlardan foydalaniladi. Go‘sht, baliq, sabzavot, guruch, makaron, kartoshka, tuxum, sut va pishloq eng ko‘p ishlatiladigan mahsulotlar hisoblanadi. Taomlarga o‘ziga xos ta'm berish uchun zaytun moyi, sariyog‘, sarimsoq, ko‘katlar va turli ziravorlar qo‘shiladi. Yevropa oshxonasida taomlarning nafaqat mazasi, balki tashqi ko‘rinishi va dasturxonga tortilishiga ham katta e'tibor beriladi.
+    <br /><br />
+    Xulosa qilib aytganda, Yevropa taomlari o‘zining boy tarixi, turli xil retseptlari, mazali ta'mi va chiroyli bezatilishi bilan butun dunyoda mashhurdir. Ular zamonaviy restoranlar menyusida muhim o‘rin egallaydi va turli mamlakatlarning oshxona madaniyatini yaqindan tanish imkonini beradi.
+  </p>
+</div>
       <div className="w-full  px-5 py-6 bg-[#173D30]">
         <div className="flex w-full items-center gap-3 bg-[#173D30]">
           <div className="h-px flex-1 bg-orange-300 "></div>

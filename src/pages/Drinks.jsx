@@ -4,20 +4,20 @@ import Footer from '../companents/Footer'
 const Drinks = () => {
   return (
     <div className='bg-[#173D30] text-white'>
-      <div className='text-white w-[1500px] ml-40 p-4'>
+      <div className='text-white w-full max-w-[1500px] mx-auto p-4 md:p-6'>
 
-
-        <p>
-          <h1 className='font-bold text-3xl flex justify-center'>Ichimliklar haqida umumiy ma'lumot</h1>
-          <br />
-          Ichimliklar inson kundalik hayotida muhim o‘rin tutadigan mahsulotlardan biridir. Ular organizmni suyuqlik bilan ta'minlash, chanqoqni qondirish va taomlanish jarayonini yanada yoqimli qilish uchun iste'mol qilinadi. Ichimliklar turli xil meva, sabzavot, sut, choy, qahva va boshqa tabiiy mahsulotlardan tayyorlanadi. Har bir xalqning o‘ziga xos milliy ichimliklari mavjud bo‘lib, ular milliy madaniyat va urf-odatlarning bir qismi hisoblanadi.          <br />
-          <br />
-          Ichimliklar asosan issiq va sovuq turlarga bo‘linadi. Issiq ichimliklarga choy, qahva, kakao va turli o‘simlik damlamalari kiradi. Sovuq ichimliklarga esa meva sharbatlari, kompot, limonad, mors, muzdek choy va turli mevali kokteyllar kiradi. Har bir ichimlik o‘zining ta'mi, tayyorlanish usuli va tarkibi bilan farqlanadi.          <br />
-          <br />
-          O‘zbek xalqining kundalik hayotida choy alohida o‘rin egallaydi. Ko‘k choy va qora choy eng ko‘p iste'mol qilinadigan ichimliklar hisoblanadi. Choy mehmon kutishda, oilaviy suhbatlarda va ovqatlanish vaqtida dasturxonga tortiladi. Shuningdek, qatiq, ayron, chalop va turli mevali sharbatlar ham xalqimiz orasida mashhur. Ayniqsa, yozning issiq kunlarida salqin ichimliklar chanqoqni qondirishda muhim ahamiyatga ega.          <br />
-          <br />
-          Xulosa qilib aytganda, ichimliklar inson hayotida muhim ahamiyatga ega. Ular chanqoqni qondirish, organizmni suyuqlik bilan ta'minlash va dasturxonni yanada boyitishga xizmat qiladi. Turli xil ichimliklarni me'yorida iste'mol qilish va kundalik hayotda toza suv ichishga e'tibor berish muhimdir.        </p>
-      </div>
+  <p>
+    <h1 className='font-bold text-2xl md:text-3xl flex justify-center text-center'>Ichimliklar haqida umumiy ma'lumot</h1>
+    <br />
+    Ichimliklar inson kundalik hayotida muhim o‘rin tutadigan mahsulotlardan biridir. Ular organizmni suyuqlik bilan ta'minlash, chanqoqni qondirish va taomlanish jarayonini yanada yoqimli qilish uchun iste'mol qilinadi. Ichimliklar turli xil meva, sabzavot, sut, choy, qahva va boshqa tabiiy mahsulotlardan tayyorlanadi. Har bir xalqning o‘ziga xos milliy ichimliklari mavjud bo‘lib, ular milliy madaniyat va urf-odatlarning bir qismi hisoblanadi.
+    <br /><br />
+    Ichimliklar asosan issiq va sovuq turlarga bo‘linadi. Issiq ichimliklarga choy, qahva, kakao va turli o‘simlik damlamalari kiradi. Sovuq ichimliklarga esa meva sharbatlari, kompot, limonad, mors, muzdek choy va turli mevali kokteyllar kiradi. Har bir ichimlik o‘zining ta'mi, tayyorlanish usuli va tarkibi bilan farqlanadi.
+    <br /><br />
+    O‘zbek xalqining kundalik hayotida choy alohida o‘rin egallaydi. Ko‘k choy va qora choy eng ko‘p iste'mol qilinadigan ichimliklar hisoblanadi. Choy mehmon kutishda, oilaviy suhbatlarda va ovqatlanish vaqtida dasturxonga tortiladi. Shuningdek, qatiq, ayron, chalop va turli mevali sharbatlar ham xalqimiz orasida mashhur. Ayniqsa, yozning issiq kunlarida salqin ichimliklar chanqoqni qondirishda muhim ahamiyatga ega.
+    <br /><br />
+    Xulosa qilib aytganda, ichimliklar inson hayotida muhim ahamiyatga ega. Ular chanqoqni qondirish, organizmni suyuqlik bilan ta'minlash va dasturxonni yanada boyitishga xizmat qiladi. Turli xil ichimliklarni me'yorida iste'mol qilish va kundalik hayotda toza suv ichishga e'tibor berish muhimdir.
+  </p>
+</div>
       <div className="w-full  px-5 py-6 bg-[#173D30] mt-4">
         <div className="flex w-full items-center gap-3 bg-[#173D30]">
           <div className="h-px flex-1 bg-orange-300 "></div>
